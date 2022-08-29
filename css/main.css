@@ -1,5 +1,7 @@
 /* ====================================
 // css variables
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
 // ==================================== */
 
 :root {
@@ -50,9 +52,88 @@ html {
 
 body {
   margin: auto;
-  font-family:'Libre Franklin';
+  font-family: 'Libre Franklin', sans-serif;
+  color: black;
+  text-align: center;
 }
 
-nav a {
-  font-size: 16px;
+nav {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 60px;
+}
+
+.button {
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(182, 0, 0);
+  border-radius: 20px;
+  margin: 15px 90px;
+  padding: 0 5px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Sorts Mill Goudy', serif;
+  line-height: 1.2;
+  margin: 0 30px 15px;
+
+}
+
+.text {
+  font-family: 'Sorts Mill Goudy', serif;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+
+.name {
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+
+main {
+  background-color: rgb(220, 223, 219);
+  padding: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 15px 0;
+  border-bottom: solid black 2px;
+  text-align: left;
+}
+
+figcaption {
+  font-size: 20px;
+  line-height: 1.2;
+  background-color: white;
+  padding: 15px;
+  font-weight: 400;
+}
+
+article {
+  margin-bottom: 15px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: left;
+  padding: 30px 15px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+ul {
+  list-style-type: none;
 }
